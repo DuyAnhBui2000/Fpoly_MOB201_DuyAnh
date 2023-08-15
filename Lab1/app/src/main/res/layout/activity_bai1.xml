@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai1"
+    
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+    <EditText
+        android:id="@+id/Edt1"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Tên sinh viên"/>
+
+    <EditText
+        android:id="@+id/Edt2"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Mã sinh viên"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Khởi chạy Service"
+        android:textStyle="bold"
+        android:backgroundTint="#0000FF"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Dừng Service"
+        android:textStyle="bold"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

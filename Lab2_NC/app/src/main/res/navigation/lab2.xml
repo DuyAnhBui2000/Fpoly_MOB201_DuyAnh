@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lab2"
+    app:startDestination="@id/fragment_Bai1">
+
+    <fragment
+        android:id="@+id/fragment_Bai1"
+        android:name="com.example.lab2_mob201.Fragment.Fragment_Bai1"
+        android:label="fragment_bai1"
+        tools:layout="@layout/fragment_bai1" />
+    <fragment
+        android:id="@+id/fragment_Bai2"
+        android:name="com.example.lab2_mob201.Fragment.Fragment_Bai2"
+        android:label="fragment_bai2"
+        tools:layout="@layout/fragment_bai2" />
+</navigation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_img_show_nav">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@drawable/custom_border_nav_icon</item>
+    </style>
+</resources>
